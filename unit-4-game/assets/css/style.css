@@ -1,0 +1,61 @@
+body{
+	padding: 10px;
+	max-width: 75%;
+	background-color: tan;
+
+}
+
+header{
+	background-color: orange;
+	width: 50%;
+}
+
+
+.instructions{
+	background-color: yellow;
+	width: 50%;
+	line-height: 1.5;
+}
+
+#target-score{
+	background-color: green;
+	width: 29%;
+	float: left;
+}
+
+#game-count{
+	background-color: lightblue;
+	width: 10%;
+	border: 5px solid black;
+	float: left;
+}
+
+#crystals{
+	clear: both;
+}
+
+.crystal-image{
+	 width: 150px;
+     height: 150px;
+}
+
+h2, #player-score{
+	background-color: #cccccc;
+	width: 30%;
+}
+
+header, h2{
+	font-weight: bolder;
+}
+
+header, h2, .instructions, #target-score, #game-count, #crystals, #player-score{
+	padding: 10px;
+}
+
+header, h2, .instructions, #target-score, #game-count, #crystals{
+	margin-bottom: 10px;
+}
+
+header, #target-score, #player-score{
+	font-size: 35px;
+}
